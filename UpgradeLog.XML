@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ScrS(host)">
+</Property><Property Name="Solution File" Value="C:\Users\Praveen\Desktop\screen sharing exercise\screen sharing exercise\ScrS(host)\ScrS(host).sln">
+</Property><Property Name="User Options File" Value="C:\Users\Praveen\Desktop\screen sharing exercise\screen sharing exercise\ScrS(host)\ScrS(host).suo">
+</Property><Property Name="Date" Value="Friday, September 10, 2010">
+</Property><Property Name="Time" Value="14:23 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ScrS(host).sln" Description="File successfully backed up as C:\Users\Praveen\Desktop\screen sharing exercise\screen sharing exercise\ScrS(host)\Backup\ScrS(host).sln">
+</Event><Event ErrorLevel="0" Project="" Source="ScrS(host).suo" Description="File successfully backed up as C:\Users\Praveen\Desktop\screen sharing exercise\screen sharing exercise\ScrS(host)\Backup\ScrS(host).suo">
+</Event><Event ErrorLevel="0" Project="ScrS(host)" Source="ScrS(host)\ScrS(host).csproj" Description="Project file successfully backed up as C:\Users\Praveen\Desktop\screen sharing exercise\screen sharing exercise\ScrS(host)\Backup\ScrS(host)\ScrS(host).csproj">
+</Event><Event ErrorLevel="0" Project="ScrS(host)" Source="ScrS(host)\ScrS(host).csproj.user" Description="Project user file successfully backed up as C:\Users\Praveen\Desktop\screen sharing exercise\screen sharing exercise\ScrS(host)\Backup\ScrS(host)\ScrS(host).csproj.user">
+</Event><Event ErrorLevel="0" Project="ScrS(host)" Source="ScrS(host)\Form1.cs" Description="File successfully backed up as C:\Users\Praveen\Desktop\screen sharing exercise\screen sharing exercise\ScrS(host)\Backup\ScrS(host)\Form1.cs">
+</Event><Event ErrorLevel="0" Project="ScrS(host)" Source="ScrS(host)\Form1.Designer.cs" Description="File successfully backed up as C:\Users\Praveen\Desktop\screen sharing exercise\screen sharing exercise\ScrS(host)\Backup\ScrS(host)\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ScrS(host)" Source="ScrS(host)\Program.cs" Description="File successfully backed up as C:\Users\Praveen\Desktop\screen sharing exercise\screen sharing exercise\ScrS(host)\Backup\ScrS(host)\Program.cs">
+</Event><Event ErrorLevel="0" Project="ScrS(host)" Source="ScrS(host)\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Praveen\Desktop\screen sharing exercise\screen sharing exercise\ScrS(host)\Backup\ScrS(host)\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ScrS(host)" Source="ScrS(host)\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\Praveen\Desktop\screen sharing exercise\screen sharing exercise\ScrS(host)\Backup\ScrS(host)\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ScrS(host)" Source="ScrS(host)\Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\Praveen\Desktop\screen sharing exercise\screen sharing exercise\ScrS(host)\Backup\ScrS(host)\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ScrS(host)" Source="ScrS(host)\Properties\Settings.settings" Description="File successfully backed up as C:\Users\Praveen\Desktop\screen sharing exercise\screen sharing exercise\ScrS(host)\Backup\ScrS(host)\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="ScrS(host)" Source="ScrS(host)\Form1.resx" Description="File successfully backed up as C:\Users\Praveen\Desktop\screen sharing exercise\screen sharing exercise\ScrS(host)\Backup\ScrS(host)\Form1.resx">
+</Event><Event ErrorLevel="0" Project="ScrS(host)" Source="ScrS(host)\Properties\Resources.resx" Description="File successfully backed up as C:\Users\Praveen\Desktop\screen sharing exercise\screen sharing exercise\ScrS(host)\Backup\ScrS(host)\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="ScrS(host)" Source="ScrS(host)\ScrS(host).csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ScrS(host)" Source="ScrS(host)\ScrS(host).csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ScrS(host).sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ScrS(host).sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ScrS(host)" Source="ScrS(host)\ScrS(host).csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

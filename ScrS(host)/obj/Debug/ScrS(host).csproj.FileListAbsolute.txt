@@ -1,0 +1,32 @@
+C:\Users\Dr Mucus Spleen\Documents\Visual Studio 2008\Projects\ScrS(host)\ScrS(host)\bin\Debug\ScrS(host).exe
+C:\Users\Dr Mucus Spleen\Documents\Visual Studio 2008\Projects\ScrS(host)\ScrS(host)\bin\Debug\ScrS(host).pdb
+C:\Users\Dr Mucus Spleen\Documents\Visual Studio 2008\Projects\ScrS(host)\ScrS(host)\bin\Debug\Interop.RDPCOMAPILib.dll
+C:\Users\Dr Mucus Spleen\Documents\Visual Studio 2008\Projects\ScrS(host)\ScrS(host)\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dr Mucus Spleen\Documents\Visual Studio 2008\Projects\ScrS(host)\ScrS(host)\obj\Debug\Interop.RDPCOMAPILib.dll
+C:\Users\Dr Mucus Spleen\Documents\Visual Studio 2008\Projects\ScrS(host)\ScrS(host)\obj\Debug\ScrS(host).csproj.ResolveComReference.cache
+C:\Users\Dr Mucus Spleen\Documents\Visual Studio 2008\Projects\ScrS(host)\ScrS(host)\obj\Debug\ScrS_server_.Form1.resources
+C:\Users\Dr Mucus Spleen\Documents\Visual Studio 2008\Projects\ScrS(host)\ScrS(host)\obj\Debug\ScrS_server_.Properties.Resources.resources
+C:\Users\Dr Mucus Spleen\Documents\Visual Studio 2008\Projects\ScrS(host)\ScrS(host)\obj\Debug\ScrS(host).csproj.GenerateResource.Cache
+C:\Users\Dr Mucus Spleen\Documents\Visual Studio 2008\Projects\ScrS(host)\ScrS(host)\obj\Debug\ScrS(host).exe
+C:\Users\Dr Mucus Spleen\Documents\Visual Studio 2008\Projects\ScrS(host)\ScrS(host)\obj\Debug\ScrS(host).pdb
+C:\Users\Praveen\Desktop\screen sharing exercise\screen sharing exercise\ScrS(host)\ScrS(host)\obj\Debug\Interop.RDPCOMAPILib.dll
+C:\Users\Praveen\Desktop\screen sharing exercise\screen sharing exercise\ScrS(host)\ScrS(host)\obj\Debug\ScrS(host).csproj.ResolveComReference.cache
+C:\Users\Praveen\Desktop\screen sharing exercise\screen sharing exercise\ScrS(host)\ScrS(host)\obj\Debug\ScrS(host).exe
+C:\Users\Praveen\Desktop\screen sharing exercise\screen sharing exercise\ScrS(host)\ScrS(host)\obj\Debug\ScrS(host).pdb
+H:\Radni\screen sharing exercise\ScrS(host)\ScrS(host)\obj\Debug\Interop.RDPCOMAPILib.dll
+H:\Radni\screen sharing exercise\ScrS(host)\ScrS(host)\obj\Debug\ScrS(host).csproj.ResolveComReference.cache
+H:\Radni\screen sharing exercise\ScrS(host)\ScrS(host)\obj\Debug\ScrS(host).exe
+H:\Radni\screen sharing exercise\ScrS(host)\ScrS(host)\obj\Debug\ScrS(host).pdb
+H:\Radni\screen sharing exercise\ScrS(host)\ScrS(host)\bin\Debug\ScrS(host).exe
+H:\Radni\screen sharing exercise\ScrS(host)\ScrS(host)\bin\Debug\ScrS(host).pdb
+H:\Radni\screen sharing exercise\ScrS(host)\ScrS(host)\bin\Debug\Interop.RDPCOMAPILib.dll
+H:\Radni\screen sharing exercise\ScrS(host)\ScrS(host)\obj\Debug\ScrS_server_.Form1.resources
+H:\Radni\screen sharing exercise\ScrS(host)\ScrS(host)\obj\Debug\ScrS_server_.Properties.Resources.resources
+H:\Radni\screen sharing exercise\ScrS(host)\ScrS(host)\obj\Debug\ScrS(host).csproj.GenerateResource.Cache
+H:\Radni\screen sharing exercise\ScrS(host)\ScrS(host)\bin\Debug\ScrS(host).exe.config
+H:\Radni\screen sharing exercise\ScrS(host)\ScrS(host)\obj\Debug\ScrS_server_.configuration.resources
+H:\Radni\screen sharing exercise\ScrS(host)\ScrS(host)\bin\Debug\ScrS(host).exe.manifest
+H:\Radni\screen sharing exercise\ScrS(host)\ScrS(host)\bin\Debug\ScrS(host).application
+H:\Radni\screen sharing exercise\ScrS(host)\ScrS(host)\obj\Debug\ScrS(host).exe.manifest
+H:\Radni\screen sharing exercise\ScrS(host)\ScrS(host)\obj\Debug\ScrS(host).application
+H:\Radni\screen sharing exercise\ScrS(host)\ScrS(host)\obj\Debug\ScrS(host).csprojResolveAssemblyReference.cache
