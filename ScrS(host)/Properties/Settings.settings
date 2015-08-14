@@ -2,8 +2,8 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ScrS_server_.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="sRDPfilePath" Type="System.String" Scope="User">
-      <Value Profile="(Default)">\\10.36.5.104\rpcviewer\rpcviewer.txt</Value>
+    <Setting Name="sRDPInvitePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
     </Setting>
   </Settings>
 </SettingsFile>

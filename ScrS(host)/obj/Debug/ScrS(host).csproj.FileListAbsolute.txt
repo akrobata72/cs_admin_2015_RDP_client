@@ -30,3 +30,20 @@ H:\Radni\screen sharing exercise\ScrS(host)\ScrS(host)\bin\Debug\ScrS(host).appl
 H:\Radni\screen sharing exercise\ScrS(host)\ScrS(host)\obj\Debug\ScrS(host).exe.manifest
 H:\Radni\screen sharing exercise\ScrS(host)\ScrS(host)\obj\Debug\ScrS(host).application
 H:\Radni\screen sharing exercise\ScrS(host)\ScrS(host)\obj\Debug\ScrS(host).csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Source\Repos\cs_admin_2015_RDP_client\ScrS(host)\bin\Debug\ScrS(host).exe.config
+C:\Users\Administrator\Source\Repos\cs_admin_2015_RDP_client\ScrS(host)\obj\Debug\Interop.RDPCOMAPILib.dll
+C:\Users\Administrator\Source\Repos\cs_admin_2015_RDP_client\ScrS(host)\obj\Debug\ScrS(host).csproj.ResolveComReference.cache
+C:\Users\Administrator\Source\Repos\cs_admin_2015_RDP_client\ScrS(host)\obj\Debug\ScrS(host).exe
+C:\Users\Administrator\Source\Repos\cs_admin_2015_RDP_client\ScrS(host)\obj\Debug\ScrS(host).pdb
+C:\Users\Administrator\Source\Repos\cs_admin_2015_RDP_client\ScrS(host)\bin\Debug\ScrS(host).exe.manifest
+C:\Users\Administrator\Source\Repos\cs_admin_2015_RDP_client\ScrS(host)\bin\Debug\ScrS(host).application
+C:\Users\Administrator\Source\Repos\cs_admin_2015_RDP_client\ScrS(host)\bin\Debug\ScrS(host).exe
+C:\Users\Administrator\Source\Repos\cs_admin_2015_RDP_client\ScrS(host)\bin\Debug\ScrS(host).pdb
+C:\Users\Administrator\Source\Repos\cs_admin_2015_RDP_client\ScrS(host)\bin\Debug\Interop.RDPCOMAPILib.dll
+C:\Users\Administrator\Source\Repos\cs_admin_2015_RDP_client\ScrS(host)\obj\Debug\ScrS_server_.configuration.resources
+C:\Users\Administrator\Source\Repos\cs_admin_2015_RDP_client\ScrS(host)\obj\Debug\ScrS_server_.Form1.resources
+C:\Users\Administrator\Source\Repos\cs_admin_2015_RDP_client\ScrS(host)\obj\Debug\ScrS_server_.Properties.Resources.resources
+C:\Users\Administrator\Source\Repos\cs_admin_2015_RDP_client\ScrS(host)\obj\Debug\ScrS(host).csproj.GenerateResource.Cache
+C:\Users\Administrator\Source\Repos\cs_admin_2015_RDP_client\ScrS(host)\obj\Debug\ScrS(host).exe.manifest
+C:\Users\Administrator\Source\Repos\cs_admin_2015_RDP_client\ScrS(host)\obj\Debug\ScrS(host).application
+C:\Users\Administrator\Source\Repos\cs_admin_2015_RDP_client\ScrS(host)\obj\Debug\ScrS(host).csprojResolveAssemblyReference.cache

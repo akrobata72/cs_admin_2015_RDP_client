@@ -1,7 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrS(host)", "ScrS(host)\ScrS(host).csproj", "{2FCDC35C-0755-4905-9B64-FEEB3BCDE826}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remote_Assistance", "ScrS(host)\Remote_Assistance.csproj", "{2FCDC35C-0755-4905-9B64-FEEB3BCDE826}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Desktop_share_host", "Desktop_share_host\Desktop_share_host.vdproj", "{D09D6D63-4001-4205-8EFF-8983CFF36C01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +17,8 @@ Global
 		{2FCDC35C-0755-4905-9B64-FEEB3BCDE826}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FCDC35C-0755-4905-9B64-FEEB3BCDE826}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FCDC35C-0755-4905-9B64-FEEB3BCDE826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D09D6D63-4001-4205-8EFF-8983CFF36C01}.Debug|Any CPU.ActiveCfg = Debug
+		{D09D6D63-4001-4205-8EFF-8983CFF36C01}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

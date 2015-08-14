@@ -37,7 +37,7 @@ namespace ScrS_server_
             x.Open();
 
             IRDPSRAPIInvitation Invitation = x.Invitations.CreateInvitation("Trial", "MyGroup", "", 10);
-            string file = Properties.Settings.Default.sRDPfilePath;
+            string file = Properties.Settings.Default.sRDPInvitePath;
             FileInfo fi = new FileInfo(@"\\" + file );
             using (TextWriter txtWriter = new StreamWriter(fi.Open(FileMode.Truncate)))
             {

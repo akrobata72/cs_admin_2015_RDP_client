@@ -25,13 +25,13 @@ namespace ScrS_server_.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("\\\\10.36.5.104\\rpcviewer\\rpcviewer.txt")]
-        public string sRDPfilePath {
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string sRDPInvitePath {
             get {
-                return ((string)(this["sRDPfilePath"]));
+                return ((string)(this["sRDPInvitePath"]));
             }
             set {
-                this["sRDPfilePath"] = value;
+                this["sRDPInvitePath"] = value;
             }
         }
     }

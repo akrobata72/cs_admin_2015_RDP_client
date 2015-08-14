@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Configuration;
+using System.IO;
 
 namespace ScrS_server_
 {
@@ -15,16 +16,22 @@ namespace ScrS_server_
         public configuration()
         {
             InitializeComponent();
+            //Properties.Settings.Default.sRDPfilePath = txtRDPFilePath.Text;
+            txtRDPFilePath.Text = Properties.Settings.Default.sRDPInvitePath;
         }
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            Configuration config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+            string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData) + @"Firga","app.config");
+            Configuration MyAppConfig = ConfigurationManager.OpenMappedExeConfiguration(new ExeConfigurationFileMap { ExeConfigFilename = path }, ConfigurationUserLevel.None);
 
-            Properties.Settings.Default.sRDPfilePath = txtRDPFilePath.Text;
+            //Configuration config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+
+            Properties.Settings.Default.sRDPInvitePath = txtRDPFilePath.Text;
+            //Properties.Settings.Default.Save();
+            MyAppConfig.Save();
             
-            Properties.Settings.Default.Save();
-            ConfigurationManager.RefreshSection("appSettings");
+            ConfigurationManager.RefreshSection("MyAppConfig");
         }
 
         private void btnRDPInvitationFile_Click(object sender, EventArgs e)
