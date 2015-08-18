@@ -50,19 +50,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>wp8FdPh2KxTj9xwkJZv4vselJn0=</dsig:DigestValue>
+        <dsig:DigestValue>TrYjRAw3JwwWtoGz2TDVjmKmXYk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ScrS(host).exe" size="31680">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ScrS(host).exe" size="32192">
       <assemblyIdentity name="ScrS(host)" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Aj22nyRTdWqwyKz57h9DEuiQanQ=</dsig:DigestValue>
+        <dsig:DigestValue>U1O03uBvsgogUaKv5KvWyau9ms0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -75,13 +75,13 @@
       <dsig:DigestValue>IgkVstPY6yZcHkapitRMnV0XrVY=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="ScrS(host).exe.config" size="902">
+  <file name="ScrS(host).exe.config" size="122">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>xk/cxgIPY1sgieLk469d1BImigo=</dsig:DigestValue>
+      <dsig:DigestValue>9KA+JzlusaPz4TXe3oyukw98w6U=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

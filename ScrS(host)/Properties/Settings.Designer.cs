@@ -22,17 +22,5 @@ namespace ScrS_server_.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string sRDPInvitePath {
-            get {
-                return ((string)(this["sRDPInvitePath"]));
-            }
-            set {
-                this["sRDPInvitePath"] = value;
-            }
-        }
     }
 }

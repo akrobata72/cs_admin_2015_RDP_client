@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using System.Diagnostics;
 using RDPCOMAPILib;
 using System.IO;
+using System.Configuration;
 
 namespace ScrS_server_
 {
@@ -18,6 +19,9 @@ namespace ScrS_server_
         public Form1()
         {
             InitializeComponent();
+
+
+
         }
         
         private void Form1_Load(object sender, EventArgs e)
@@ -29,6 +33,10 @@ namespace ScrS_server_
         {
             IRDPSRAPIAttendee MyGuest = (IRDPSRAPIAttendee)Guest;//???
             MyGuest.ControlLevel = CTRL_LEVEL.CTRL_LEVEL_INTERACTIVE;
+            IRDPSRAPISharingSession ses = (IRDPSRAPISharingSession)Guest;
+            ses.colordepth = 16;
+            
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -36,15 +44,17 @@ namespace ScrS_server_
             x.OnAttendeeConnected += Incoming;
             x.Open();
 
+            string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "Firga", "app.config");
+            Configuration MyAppConfig = ConfigurationManager.OpenMappedExeConfiguration(new ExeConfigurationFileMap { ExeConfigFilename = path }, ConfigurationUserLevel.None);
+
             IRDPSRAPIInvitation Invitation = x.Invitations.CreateInvitation("Trial", "MyGroup", "", 10);
-            string file = Properties.Settings.Default.sRDPInvitePath;
+            string file = MyAppConfig.AppSettings.Settings["sRDPInvitePath"].Value;
             FileInfo fi = new FileInfo(@"\\" + file );
             using (TextWriter txtWriter = new StreamWriter(fi.Open(FileMode.Truncate)))
             {
                 txtWriter.Write(Invitation.ConnectionString);
                 label1.Text = "OK!";
             }
-           // textBox1.Text = Invitation.ConnectionString;
 
         }
 
@@ -70,8 +80,7 @@ namespace ScrS_server_
             }
             else
             {
-                // Console app
-                System.Environment.Exit(1);
+                 System.Environment.Exit(1);
             }
         }
     }

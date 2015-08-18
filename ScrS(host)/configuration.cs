@@ -11,27 +11,39 @@ using System.IO;
 
 namespace ScrS_server_
 {
+
+
     public partial class configuration : Form
     {
+        
+
         public configuration()
         {
             InitializeComponent();
-            //Properties.Settings.Default.sRDPfilePath = txtRDPFilePath.Text;
-            txtRDPFilePath.Text = Properties.Settings.Default.sRDPInvitePath;
-        }
 
-        private void btnSave_Click(object sender, EventArgs e)
-        {
-            string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData) + @"Firga","app.config");
+            string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "Firga", "app.config");
+
             Configuration MyAppConfig = ConfigurationManager.OpenMappedExeConfiguration(new ExeConfigurationFileMap { ExeConfigFilename = path }, ConfigurationUserLevel.None);
 
-            //Configuration config = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+            txtRDPFilePath.Text = MyAppConfig.AppSettings.Settings["sRDPInvitePath"].Value;
 
-            Properties.Settings.Default.sRDPInvitePath = txtRDPFilePath.Text;
-            //Properties.Settings.Default.Save();
-            MyAppConfig.Save();
+        }
+
+        
+
+        public void btnSave_Click(object sender, EventArgs e)
+        {
             
+            string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "Firga", "app.config");
+
+            Configuration MyAppConfig = ConfigurationManager.OpenMappedExeConfiguration(new ExeConfigurationFileMap { ExeConfigFilename = path }, ConfigurationUserLevel.None);
+            AppSettingsSection section = MyAppConfig.AppSettings;
+            section.Settings.Remove("sRDPInvitePath");
+            section.Settings.Add("sRDPInvitePath",txtRDPFilePath.Text);
+
+           MyAppConfig.Save();
             ConfigurationManager.RefreshSection("MyAppConfig");
+  
         }
 
         private void btnRDPInvitationFile_Click(object sender, EventArgs e)
