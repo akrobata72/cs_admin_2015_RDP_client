@@ -10,8 +10,9 @@ using System.Diagnostics;
 using RDPCOMAPILib;
 using System.IO;
 using System.Configuration;
+using System.Threading;
 
-namespace ScrS_server_
+namespace RAInvite_Admin_Toolroom
 {
     public partial class Form1 : Form
     {
@@ -53,15 +54,13 @@ namespace ScrS_server_
             using (TextWriter txtWriter = new StreamWriter(fi.Open(FileMode.Truncate)))
             {
                 txtWriter.Write(Invitation.ConnectionString);
-                label1.Text = "OK!";
-                
-                
-                    
+                label1.ForeColor = Color.DarkGreen;
+                label1.Text = "Connected!";
+                WindowState = FormWindowState.Minimized;
+
             }
 
-           
-
-    }
+        }
 
 
 
@@ -69,7 +68,8 @@ namespace ScrS_server_
         {
             x.Close();
             x = null;
-
+            Application.Restart();
+            
         }
 
         private void opcijeToolStripMenuItem_Click(object sender, EventArgs e)

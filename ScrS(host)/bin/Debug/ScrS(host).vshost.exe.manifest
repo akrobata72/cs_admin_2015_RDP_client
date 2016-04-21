@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>UrRRgVyQma9iQiXcvqpQ2Sf8UY8=</dsig:DigestValue>
+        <dsig:DigestValue>0WEGK1uMMDrFkEIAmELVuW3kQP0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,7 +62,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>/PIDHvWwXgrYtV4a/oQOL7G/Cik=</dsig:DigestValue>
+        <dsig:DigestValue>bvHUfpjXnvF1yq8xCJCe/Lk5bYY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -75,13 +75,13 @@
       <dsig:DigestValue>IgkVstPY6yZcHkapitRMnV0XrVY=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="ScrS(host).exe.config" size="77">
+  <file name="ScrS(host).exe.config" size="122">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>w7WNgu5MxCvL4DAgISBxgwmhDzU=</dsig:DigestValue>
+      <dsig:DigestValue>9KA+JzlusaPz4TXe3oyukw98w6U=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

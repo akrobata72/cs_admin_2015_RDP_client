@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ScrS_server_.Properties {
+namespace RAInvite_Admin_Toolroom.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
