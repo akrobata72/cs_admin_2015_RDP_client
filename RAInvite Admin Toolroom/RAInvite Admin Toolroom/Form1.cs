@@ -21,13 +21,22 @@ namespace RAInvite_Admin_Toolroom
         public Form1()
         {
             InitializeComponent();
-
+            //this.LostFocus += new System.EventHandler(this.Form1_LostFocus);
         }
  
         private void Form1_Load(object sender, EventArgs e)
         {
            
         }
+
+        private void Form1_LostFocus(Object sender, EventArgs e)
+        {
+            Form fc = Application.OpenForms["configuration"];
+            if (fc == null)
+            this.WindowState = FormWindowState.Minimized;
+
+        }
+
 
         private void Incoming(object Guest)
         {
@@ -41,9 +50,10 @@ namespace RAInvite_Admin_Toolroom
         {
             
             x.OnAttendeeConnected += Incoming;
+            x.colordepth = 8;
             x.Open();
             
-            x.colordepth = 8;
+            
 
             string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "Firga", "app.config");
             Configuration MyAppConfig = ConfigurationManager.OpenMappedExeConfiguration(new ExeConfigurationFileMap { ExeConfigFilename = path }, ConfigurationUserLevel.None);
@@ -56,15 +66,14 @@ namespace RAInvite_Admin_Toolroom
                 txtWriter.Write(Invitation.ConnectionString);
                 label1.ForeColor = Color.DarkGreen;
                 label1.Text = "Connected!";
-                WindowState = FormWindowState.Minimized;
+                //WindowState = FormWindowState.Minimized;
 
             }
 
         }
+        
 
-
-
-      private void button3_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
             x.Close();
             x = null;

@@ -15,21 +15,30 @@ namespace RAInvite_Admin_Toolroom
 
     public partial class configuration : Form
     {
-        
+
 
         public configuration()
         {
             InitializeComponent();
 
             string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.CommonApplicationData), "Firga", "app.config");
-
             Configuration MyAppConfig = ConfigurationManager.OpenMappedExeConfiguration(new ExeConfigurationFileMap { ExeConfigFilename = path }, ConfigurationUserLevel.None);
+            try
+            {
+                string pathTxt = MyAppConfig.AppSettings.Settings["sRDPInvitePath"].Value;
+                if (pathTxt != null)
+                {
+                    txtRDPFilePath.Text = pathTxt;
+                }
+            }
+            catch
+            {
+                txtRDPFilePath.Text = "";
+            }
 
-            this.txtRDPFilePath.Text = MyAppConfig.AppSettings.Settings["sRDPInvitePath"].Value;
- 
         }
 
-        
+
 
         public void btnSave_Click(object sender, EventArgs e)
         {
@@ -43,6 +52,7 @@ namespace RAInvite_Admin_Toolroom
 
            MyAppConfig.Save();
             ConfigurationManager.RefreshSection("MyAppConfig");
+            Close();
   
         }
 

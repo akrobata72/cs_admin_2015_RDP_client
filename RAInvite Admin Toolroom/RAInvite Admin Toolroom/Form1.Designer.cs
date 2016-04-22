@@ -135,6 +135,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "RAInvite Admin Toolroom";
+            this.Deactivate += new System.EventHandler(this.Form1_LostFocus);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
