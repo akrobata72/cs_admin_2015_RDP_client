@@ -32,7 +32,9 @@ namespace RAInvite_Admin_Toolroom
         private void Form1_LostFocus(Object sender, EventArgs e)
         {
             Form fc = Application.OpenForms["configuration"];
-            if (fc == null)
+            Form fa = Application.OpenForms["frmAbout"];
+            if (fc == null && fa==null)
+            
             this.WindowState = FormWindowState.Minimized;
 
         }
@@ -98,6 +100,13 @@ namespace RAInvite_Admin_Toolroom
             {
                  System.Environment.Exit(1);
             }
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAbout f2 = new frmAbout();
+            f2.ShowDialog();
+
         }
     }
 }
