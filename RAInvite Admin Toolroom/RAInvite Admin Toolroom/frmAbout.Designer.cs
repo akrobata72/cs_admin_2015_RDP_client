@@ -70,7 +70,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(176, 17);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Release date: 26.04.2016.";
+            this.label3.Text = "Release date: 06.06.2016.";
             // 
             // frmAbout
             // 

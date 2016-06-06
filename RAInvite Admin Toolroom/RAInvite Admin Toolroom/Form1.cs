@@ -79,6 +79,8 @@ namespace RAInvite_Admin_Toolroom
         {
             x.Close();
             x = null;
+            label1.ForeColor = Color.Red;
+            label1.Text = "Disconnected";
             Application.Restart();
             
         }
